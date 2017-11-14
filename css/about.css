@@ -1,0 +1,42 @@
+.about-top{
+  margin-top: 5%;
+}
+.big-pad-right{
+  padding: 35px 300px 35px 50px;
+}
+.l-mtop{
+  margin-top: 10px;
+}
+.fleft{
+  float: left;
+}
+.imgltop{
+  margin-left: -100px;
+  margin-top: 50px;
+}
+
+.imgltop img{
+  max-height:380px;
+}
+
+.ts-header{
+  color:#c4c4c4;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.p-number{
+  margin: 10px 0px;
+  color: #121212;
+  font-weight: bold;
+}
+.box {
+	max-width: 70vw;
+	padding: 30px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	font-size: 30px;
+	line-height: 1.5;
+	transform: translateY(-50%);
+	perspective: 400px;
+}
