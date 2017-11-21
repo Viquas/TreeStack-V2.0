@@ -1,3 +1,4 @@
+<?php ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="author" content="Ahmed Viquas">
   <meta name="description" content="Treestack Tech | App &amp; Web Development Agency"/>
-  <meta name="robots"  content="noodp"/>
+  <meta name="robots" content="noodp"/>
   <link rel="canonical" href="https://treestack.tech/" />
   <link href="images/favicon.png" rel="shortcut icon" />
   <link rel=icon href="images/favicon.png">
@@ -30,63 +31,10 @@
 
 </head>
 <body>
-  <!-- <div class="loader-overlay"></div> -->
-  <div class="c-circle-overlay--ts">
-    <!-- <span class="js-circle"></span> -->
-  </div>
-  <div id="myNav" class="overlay">
-  <div class="overlay-content">
-    <div class="overlay-left">
-      <a href="#" class="menu-text" data-name="home.svg">Home
-            <span class="link-line"></span>
-      </a>
-    <a href="#" class="menu-text" data-name="aboutus.svg">About
-          <span class="link-line"></span>
-    </a>
-    <a href="#" class="menu-text" data-name="work.svg">Work
-          <span class="link-line"></span>
-    </a>
-    <a href="#" class="menu-text" data-name="blog.svg">Blog
-          <span class="link-line"></span>
-    </a>
-    <a href="#" class="menu-text" data-name="contact.svg">Contact Us
-          <span class="link-line"></span>
-    </a>
-    </div>
-    <div class="overlay-right">
-      <img class="img-responsive menu-svg" src="images/svg/aboutus.svg">
-    </div>
-  </div>
-  <div class="overlay-contact">
-    <p class="menu-contact">help@treestack.tech</p>
-    <p class="menu-contact">UK +44 (0) 203 287 3302</p>
-  </div>
-    <div class="overlay-contact">
-    <div class="contact-left">
-      <i class="fa fa-facebook menu-icon"></i>
-      <i class="fa fa-dribbble menu-icon"></i>
-      <i class="fa fa-behance menu-icon"></i>
-      <i class="fa fa-medium menu-icon"></i>
-
-      <a href="#" class="ts_project">Start a project   <i class="fa fa-long-arrow-right " ></i></a>
-    </div>
-    </div>
-</div>
-
-  <div class="container">
-    <nav class="navbar navbar-toggleable-md navbar-light ">
-      <a class="navbar-brand" href="#"><img src="images/logo.png" ></img></a>
-      <ul class="navbar-nav ml-auto ham">
-        <li class="nav-item">
-          <div id="nav-icon1" class="nav">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <?php
+   include 'loader.php';
+   include 'header.php';
+   ?>
 
   <section class="about-top">
     <div class="container">
@@ -129,7 +77,7 @@
         <div class="row">
           <h2 class="ts-header">Our <br/>Creative<br/> Process</h2>
         </div>
-        <div class="row">
+        <div class="row ts-t-b">
           <div id="processHolder">
             <div id="process">
             <h1 class="p-number">01</h1>
@@ -226,39 +174,9 @@
       </div>
     </section>
 
-
-
-
-    <footer>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="footer-sec left-footer">
-            <img class="footer-logo" src="images/logo.png"></img>
-            <p class="newsletter-text">Wish to get updates on latest design trends?</p>
-            <div class="input-group">
-              <input type="text" class="form-control newsletter-input" placeholder="Enter your email address">
-                <span class="input-group-btn">
-                <button class="btn btn-default newsletter-button" type="button">+</button>
-                </span>
-             </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="footer-sec right-footer">
-            <p class="footer-item">UK +44 (0) 203 287 3302</p>
-            <p class="footer-item">help@treestack.tech</p>
-            <p class="footer-item"> Follow us:
-               <a class="socio-link" href="#"><i class="fa fa-medium"></i> </a>
-                <a class="socio-link" href="#"><i class="fa fa-behance"></i> </a>
-                 <a class="socio-link" href="#"><i class="fa fa-dribbble"></i> </a>
-                  <a class="socio-link" href="#"><i class="fa fa-twitter"></i> </a>
-                   <a class="socio-link" href="#"><i class="fa fa-instagram"></i> </a>
-                   <a class="socio-link" href="#"><i class="fa fa-facebook"></i> </a>
-             </p>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <?php
+      include 'footer.php';
+    ?>
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -266,7 +184,7 @@
           <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-    <!-- <script src="js/sjhajh.js"></script> -->
+    <script src="js/menuhjks.js"></script>
     <script src="js/about.js"></script>
     <!-- <script>
     window.sr = ScrollReveal();

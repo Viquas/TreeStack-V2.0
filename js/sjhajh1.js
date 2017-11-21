@@ -59,7 +59,7 @@ function goRight(c){
 $(function(){
 	var n = true;
 	$(window).scroll(function(){
-		// changeColor($('.big-pad'));
+		changeColor($('.big-pad'));
 
 		var i = $('#intro');
 		var t = $('#testimonial');

@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600');
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 *{
   font-family: 'Work Sans', sans-serif;
 }
@@ -196,13 +208,11 @@ p.swap{
 			position: relative;
 			bottom: 0px;
 			left: 0px;
-
 		}
 
 		p.slogan{
 			text-rendering: optimizeLegibility;
 			margin: 0px;
-
 		}
 		p.slogan strong{
 			display:block;
@@ -312,7 +322,7 @@ transform: scale(1.01);
 
 }
 .ts_card_img{
-  padding: 20px;
+  padding: 40px;
 }
 .ts_card_bottom{
   background: #121212;
@@ -344,7 +354,7 @@ transform: scale(1.01);
 					left: 0px;
           font-size: 50px;
           text-align: center;
-          background-position: center ;
+          background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
 
@@ -381,6 +391,9 @@ transform: scale(1.01);
 }
 .black-arrow{
   color: #121212;
+}
+.black-arrow:hover{
+  cursor: pointer;
 }
 .a-left{
   margin-right:10px;
@@ -768,7 +781,7 @@ float: left;
 }
 
 .menu-svg{
-  width: 400px;
+  width: 300px;
 }
 .c-circle-overlay--ts{
   padding: 15px;
@@ -856,6 +869,14 @@ body.menu-open .c-indicator .c-indicator__circle:after {
     animation-delay: 1s
 }
 
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 /*Loader*/
@@ -867,6 +888,9 @@ body.menu-open .c-indicator .c-indicator__circle:after {
     position: fixed;
 }
 
+.mar-top{
+  /*margin: 30px auto;*/
+}
 @media screen and (max-height: 450px) {
 
   .overlay a {font-size: 20px}

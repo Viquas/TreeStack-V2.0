@@ -1,0 +1,118 @@
+.backlit{
+  font-size: 150px;
+  line-height: 150px;
+  color: #f9f9f9;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.m-text{
+  margin-top: -60px;
+  text-align: center;
+}
+.city{
+  font-weight: normal;
+}
+.cityLine{
+  width: 30%;
+  float: left;
+  margin: 10px auto;
+}
+.address{
+  color: #666;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.time-text{
+  margin: 10px auto;
+}
+.time-lite{
+  color: #c4c4c4;
+  margin: 10px auto;
+}
+.time-icon{
+  width: 40px;
+}
+.parallax{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../images/uber1.jpg');
+   padding: 80px 0px;
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+.f-line{
+  border-top: 1px solid rgba(0,0,0,.2);
+  margin-top: 20px;
+}
+.whiteLine{
+  margin: 0px auto 10px auto;
+  color: white;
+  background: white;
+  width: 40%;
+  float: left;
+}
+
+.adCard{
+  /*padding: 20px;*/
+  transition: 1s;
+  margin: 30px auto;
+  overflow: hidden;
+}
+.adCard:hover {
+    box-shadow: 2px 8px 20px 0 rgba(31,32,68,.25);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+.adCard:hover video{
+  display: block;
+}
+.adCard:hover .filter{
+  display: block;
+}
+.adCard video.fillWidth {
+  width: 100%;
+}
+.adCard video {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  display: none;
+
+}
+.adCard .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  display: none;
+}
+
+.pad{
+  padding: 10px;
+}
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .backlit{
+      font-size: 90px;
+      line-height: 90px;
+    }
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+
+}
