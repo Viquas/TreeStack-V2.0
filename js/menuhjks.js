@@ -98,3 +98,45 @@ function menuTextAnimatonOut(a){
 	var $arrow = a;
 	tl.to($arrow, 0, {opacity:0});
 }
+
+
+$('#newsEmail').focusout(function(){
+	$('#newsEmail').css('border-color','transparent');
+});
+
+$('#news').click(function(){
+	var t= $("input[name='textEmail']").val();
+	if(validateEmail(t)){
+		post_news(t);
+	}else{
+		console.log('No');
+		$('#newsEmail').css('border-color','red');
+	}
+});
+
+function post_news(t){
+	$.post("services/contact.php", {
+                    email:t,
+  }, function(result) {
+
+    var print = jQuery.parseJSON(result);
+    if (print.status == 200) {
+      console.log(print);
+      $scope.message = 'Thank you for your interest. We will get in touch with you as soon as possible.';
+      $scope.success = true;
+      $("#done").addClass('disabled');
+
+} else {
+
+
+}
+});
+}
+function validateEmail($email) {
+	if($email.length > 0){
+		var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+		return emailReg.test( $email );
+	}else {
+		return false;
+	}
+}

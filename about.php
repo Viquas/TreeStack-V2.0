@@ -33,14 +33,14 @@
 <body>
   <?php
    include 'loader.php';
-   include 'header.php';
+   include 'header1.php';
    ?>
 
   <section class="about-top">
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-          <h2 class="main"> We create award winning brands & strategically designed experiences for a digital driven world </h2>
+          <h2 class="main"> We craft brilliance in every pixel we touch with amazing identity & strategically designed experiences for a digitally driven world. </h2>
         </div>
       </div>
     </section>
@@ -49,7 +49,7 @@
         <div class="row">
 
           <div class="col-sm-8">
-            <div class="box-detail" id="box-one-ts">
+            <div class="box-detail b-x" id="box-one-ts">
               <div class="big-pad-right">
                 <p class="explain ">We understand the interaction between brand and customer is contantly evolving.<br/>
                 We strive to be your partner in this evolution, Serving the long-term vision</p>
@@ -65,21 +65,21 @@
           </div>
           <div class="col-sm-4">
             <div class="imgltop">
-              <img src="images/workstation.jpg" class="img-responsive"></img>
+              <img src="images/about.jpg" class="img-responsive"></img>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section>
+    <section class="sec-pad">
       <div class="container">
         <div class="row">
           <h2 class="ts-header">Our <br/>Creative<br/> Process</h2>
         </div>
         <div class="row ts-t-b">
           <div id="processHolder">
-            <div id="process">
+            <div id="processNumber">
             <h1 class="p-number">01</h1>
             <h1 class="p-number">02</h1>
             <h1 class="p-number">03</h1>
@@ -103,7 +103,7 @@
             <div class="p-line"></div>
             <p class="p-text" data-id="4">Develop</p>
             <div class="p-line"></div>
-            <p class="p-text" data-id="5">Analtyics</p>
+            <p class="p-text" data-id="5">Testing</p>
           </div>
           </div>
 
@@ -119,61 +119,59 @@
           </div>
           </div>
         </div>
-
+        <div class="container">
         <div class="row ts-mar">
           <div class="col-sm-6" >
           <div id="processHolder">
             <div id="process">
             <p class="p-brief">
-              Brief<br/>
-              We understand the interaction between brand and customer is contantly evolving.
-              We strive to be your partner in this evolution, Serving the long-term vision
+
+            For us, listening to you is the most important step. We want to be certain that we understand your key requirements, what victory feels like and the parts of the project where there’s room for us to be creative. This way we’ll be able to give you a sound estimate for the project cost. At the kick-off meeting we’ll dive deep into the investigation (coffees in hand!) and agree a set of expectations and milestones.
             </p>
             <p class="p-brief">
-              Research<br/>
-              We understand the interaction between brand and customer is contantly evolving.
-              We strive to be your partner in this evolution, Serving the long-term vision
+
+             Before we jump into designing anything, we’ll take a step back and try to envision the wider context of your project. We call this the “research & reflect” phase. We will review the landscape of your business or idea to see what others have achieved. This ensures our implementation is creative and original.
             </p>
             <p class="p-brief">
-              Strategy<br/>
-              We understand the interaction between brand and customer is contantly evolving.
-              We strive to be your partner in this evolution, Serving the long-term vision
+            Our extensive research allows us to get better insights about your business and aid us to reflect the best out of you through thoughtful strategy. This process involves creating personas, mapping flows, wireframes, moodboards, information architecture, hierarchy card sorting, content creation, market survey, technology to be used and time allotment.
             </p>
             <p class="p-brief">
-              Design<br/>
-              We understand the interaction between brand and customer is contantly evolving.
-              We strive to be your partner in this evolution, Serving the long-term vision
+              This is an iterative process with you where we give user empathy the utmost importance in order to achieve an intuitive experience. We create a unique style guide for both, your brand and experience digitally. Great interaction is a key pointer in helping us highlight the best aspects of your business.<br/><br/>
+  We are a strong believer of the fact that the only difference between art & design is that designs solve problems.
             </p>
             <p class="p-brief">
-              Develop<br/>
-              We understand the interaction between brand and customer is contantly evolving.
-              We strive to be your partner in this evolution, Serving the long-term vision
+              We use the agile methodology to develop your website or app. This allows us to deliver value to you fast, and as your project evolves it’s an efficient way to manage changes. We’ll also show you the work as it’s ready, which means you’ve got transparency and assurance that we’re on track and delivering what you need.
             </p>
             <p class="p-brief">
-              Analtyics<br/>
-              We understand the interaction between brand and customer is contantly evolving.
-              We strive to be your partner in this evolution, Serving the long-term vision
+            We have a rigorous testing process which is a combination of human and machine based testing. We root out & fix bugs, fine-tune performance, and optimise the experience. Depending upon the nature of your project, we test up to 800 parameters.
             </p>
             </div>
            </div>
           </div>
           <div class="col-sm-6">
             <div class="wrapper">
-                <img src="images/uber1.jpg" class="rounded mx-auto p-img" id="firstImage"></img>
-                <img src="images/uber2.jpg" class="rounded mx-auto p-img"></img>
-                <img src="images/uber3.jpg" class="rounded mx-auto p-img"></img>
-                <img src="images/uber1.jpg" class="rounded mx-auto p-img"></img>
-                <img src="images/uber2.jpg" class="rounded mx-auto p-img"></img>
-                <img src="images/uber3.jpg" class="rounded mx-auto p-img"></img>
+                <img src="images/brief.jpg" class="rounded mx-auto p-img" id="firstImage"></img>
+                <img src="images/research.jpg" class="rounded mx-auto p-img"></img>
+                <img src="images/strategy.jpg" class="rounded mx-auto p-img"></img>
+                <img src="images/design.jpg" class="rounded mx-auto p-img"></img>
+                <img src="images/develop.jpg" class="rounded mx-auto p-img"></img>
+                <img src="images/test.jpg" class="rounded mx-auto p-img"></img>
                 <div class="cover"></div>
             </div>
           </div>
 
-
+        </div>
         </div>
       </div>
     </section>
-
+    <section class="ts-sec-grad-down">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center gray-text">Let's craft something amazing</h2>
+          <p class="text-center"><a class="arrow-link text-center" href="talk.php">Work with us <span class="a-right"><i class="fa fa-long-arrow-right ts-link-arrow" ></i></span></a></p>
+        </div>
+      </div>
+    </section>
     <?php
       include 'footer.php';
     ?>

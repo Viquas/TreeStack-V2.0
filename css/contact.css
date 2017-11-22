@@ -34,7 +34,7 @@
   width: 40px;
 }
 .parallax{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../images/uber1.jpg');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../images/contact.jpg');
    padding: 80px 0px;
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
@@ -66,9 +66,9 @@
     -webkit-transform: scale(1.01);
     transform: scale(1.01);
 }
-.adCard:hover video{
+/*.adCard:hover video{
   display: block;
-}
+}*/
 .adCard:hover .filter{
   display: block;
 }
@@ -91,7 +91,10 @@
 }
 
 .pad{
-  padding: 10px;
+  padding: 30px;
+}
+.work-button{
+  border: 1px solid #121212;
 }
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
@@ -106,6 +109,9 @@
     .backlit{
       font-size: 90px;
       line-height: 90px;
+    }
+    .ts-top{
+      margin-top: 20px;
     }
 }
 

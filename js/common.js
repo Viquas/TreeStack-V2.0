@@ -57,6 +57,7 @@ function goRight(c){
 		}
 	 }
 
+	
 
 $(function(){
 	var n = true;
@@ -76,7 +77,13 @@ $(function(){
   });
 });
 
-
+$('#news').click(function(){
+	console.log('logged');
+});
+function validateEmail($email) {
+  var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+  return emailReg.test( $email );
+}
 
 function testLocation(){
 //get the background color of the location

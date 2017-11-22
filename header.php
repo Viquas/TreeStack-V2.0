@@ -22,10 +22,10 @@
       <img class="img-responsive menu-svg" src="images/svg/aboutus.svg">
     </div>
   </div>
-  <div class="overlay-contact">
+  <!-- <div class="overlay-contact">
     <p class="menu-contact">help@treestack.tech</p>
     <p class="menu-contact">UK +44 (0) 203 287 3302</p>
-  </div>
+  </div> -->
     <div class="overlay-contact">
     <div class="contact-left">
       <i class="fa fa-facebook menu-icon"></i>

@@ -4,18 +4,18 @@ $(function(){
 $( document ).ready(function() {
 
     // Resive video
-    scaleVideoContainer();
-
-    initBannerVideoSize('.adCard .poster img');
-    initBannerVideoSize('.adCard .filter');
-    initBannerVideoSize('.adCard video');
-
-    $(window).on('resize', function() {
-        scaleVideoContainer();
-        scaleBannerVideoSize('.adCard .poster img');
-        scaleBannerVideoSize('.adCard .filter');
-        scaleBannerVideoSize('.adCard video');
-    });
+    // scaleVideoContainer();
+		//
+    // initBannerVideoSize('.adCard .poster img');
+    // initBannerVideoSize('.adCard .filter');
+    // initBannerVideoSize('.adCard video');
+		//
+    // $(window).on('resize', function() {
+    //     scaleVideoContainer();
+    //     scaleBannerVideoSize('.adCard .poster img');
+    //     scaleBannerVideoSize('.adCard .filter');
+    //     scaleBannerVideoSize('.adCard video');
+    // });
 
 });
 

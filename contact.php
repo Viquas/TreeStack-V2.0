@@ -65,7 +65,7 @@ if ($i > $start && $i < $end)
 <body>
   <?php
    include 'loader.php';
-   include 'header.php';
+   include 'header1.php';
    ?>
 
   <section class="contact-top">
@@ -77,7 +77,7 @@ if ($i > $start && $i < $end)
           <div class="m-text">
             <h3>Get in touch with us  </h3>
             <p class="">We'd love to hear about your project</p>
-            <a href="index.php"><button class="white-button work-button">Let's talk</button></a>
+            <a href="talk.php"><button class="white-button work-button">Let's talk</button></a>
           </div>
         </div>
       </div>
@@ -89,6 +89,7 @@ if ($i > $start && $i < $end)
         <div class="col-sm-4">
           <div class="homepage-hero-module">
           <div class="adCard">
+              <div class="pad">
           <h3 class="city">London</h3>
           <hr class="cityLine"><br/>
           <p class="address">Cygnus Business Center,<br/>
@@ -108,14 +109,14 @@ if ($i > $start && $i < $end)
          </div>
         </div>
         </div>
-
+        </div>
         <div class="col-sm-4">
             <div class="homepage-hero-module">
           <div class="adCard">
             <div class="filter"></div>
             <video autoplay loop class="fillWidth">
            <source src="videos/food.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.</video>
-
+            <div class="pad">
           <h3 class="city">Dubai</h3>
           <hr class="cityLine"><br/>
           <p class="address">Office 811, Concord tower,<br/>
@@ -134,9 +135,10 @@ if ($i > $start && $i < $end)
             echo date("h:i A")?></p>
 
 
-           <div class="poster hidden">
+           <!-- <div class="poster hidden">
             <img src="http://www.videojs.com/img/poster.jpg" alt="">
-          </div>
+          </div> -->
+        </div>
         </div>
         </div>
       </div>
@@ -181,7 +183,7 @@ if ($i > $start && $i < $end)
           <h4> help@treestack.tech</h4>
         </div>
         <div class="col-sm-5">
-          <p class="c-text">Phone</p>
+          <p class="c-text ts-top">Phone</p>
           <hr class="whiteLine"><br/>
           <h4> UK +44 (0) 203 287 3302</h4>
         </div>

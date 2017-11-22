@@ -33,17 +33,17 @@
 <body>
   <?php
    include 'loader.php';
-   include 'header.php';
+   include 'header1.php';
    ?>
 
   <section class="work-top">
-    <div class="container ">
-      <div class="b-img"></div>
+    <div class="container-fluid ">
       <div class="row ts-lift">
         <div class="col-sm-12">
           <h2 class="main"> We help brands by crafting intuitive interface for their users </h2>
         </div>
       </div>
+      <div class="b-img"></div>
     </div>
 
     <div class="container-fluid work-station" id="move">
@@ -51,8 +51,8 @@
           <div class="col-12 col-sm-6 col-md-4 col-lg-4 offset-lg-1">
               <div class="workCard">
                 <div class="workTop">
-                <img class="workImg" src="images/uber1.jpg">
-                 <a href="index.php"><button class="white-button">View Case</button></a>
+                <img class="workImg" src="images/work/dishq.jpg">
+                 <a href="https://dishq.co/" target="_blank"><button class="white-button work-button">View Site</button></a>
                </div>
               </div>
               <div class="workNumber">
@@ -60,54 +60,109 @@
               </div>
               <div class="workName">
                 <h3 class="w-name">dishq</h3>
-                <p class="w-detail">Website - Mobile App</p>
+                <p class="w-detail">Website- UI/UX - Development</p>
               </div>
-              <div class="w-line"></div>
+              <!-- <div class="w-line"></div> -->
+          </div>
+
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
+            <div class="workCard">
+              <div class="workTop">
+                <img class="workImg" src="images/work/ride.style.jpg">
+                <a href="http://ride.style/" target="_blank"><button class="white-button work-button">View Case</button></a>
+              </div>
+            </div>
+              <div class="workNumber">
+                <h1 class="w-number">02</h1>
+              </div>
+              <div class="workName">
+                <h3 class="w-name">ride.style</h3>
+                <p class="w-detail">WebApp - Branding - UI/UX - Development</p>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
+            <div class="workCard">
+              <div class="workTop">
+                <img class="workImg" src="images/work/XCD.jpg">
+                <!-- <a href="index.php"><button class="white-button work-button">View Case</button></a> -->
+              </div>
+            </div>
+              <div class="workNumber">
+                <h1 class="w-number">03</h1>
+              </div>
+              <div class="workName">
+                <h3 class="w-name">XCD HR</h3>
+                <p class="w-detail">Website - Branding - UI/UX - Development</p>
+              </div>
+
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
+            <div class="workCard">
+              <div class="workTop">
+                <img class="workImg" src="images/work/verdura.jpg">
+                <a href="http://verdura.co.uk/" target="_blank"><button class="white-button work-button">Visit Site</button></a>
+              </div>
+            </div>
+              <div class="workNumber">
+                <h1 class="w-number">04</h1>
+              </div>
+              <div class="workName">
+                <h3 class="w-name">Verdura</h3>
+                <p class="w-detail">Website - Branding - UI/UX - Development</p>
+              </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
               <div class="workCard">
                 <div class="workTop">
-                  <img class="workImg" src="images/uber2.jpg">
-                  <a href="index.php"><button class="white-button work-button">View Case</button></a>
+                  <img class="workImg" src="images/work/pera.jpg">
+                  <a href="http://tastepera.com/" target="_blank"><button class="white-button work-button">Visit Site</button></a>
                 </div>
-              </div>
-              <div class="workNumber">
-                <h1 class="w-number">02</h1>
-              </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
-              <div class="workCard">
-                <img class="workImg" src="images/uber3.jpg">
-              </div>
-              <div class="workNumber">
-                <h1 class="w-number">03</h1>
-              </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
-              <div class="workCard">
-                <img class="workImg" src="images/uber1.jpg">
-              </div>
-              <div class="workNumber">
-                <h1 class="w-number">04</h1>
-              </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
-              <div class="workCard">
-                <img class="workImg" src="images/uber2.jpg">
               </div>
               <div class="workNumber">
                 <h1 class="w-number">05</h1>
               </div>
-
+              <div class="workName">
+                <h3 class="w-name">Tastepera</h3>
+                <p class="w-detail">Website- UI/UX - Development</p>
+              </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
-              <div class="workCard">
-                <img class="workImg" src="images/uber3.jpg">
+            <div class="workCard">
+              <div class="workTop">
+                <img class="workImg" src="images/work/shivaasounds.jpg">
+                <!-- <a href="index.php"><button class="white-button work-button">View Case</button></a> -->
               </div>
+            </div>
               <div class="workNumber">
                 <h1 class="w-number">06</h1>
               </div>
+              <div class="workName">
+                <h3 class="w-name">Shiva Sounds</h3>
+                <p class="w-detail">Brand Identity</p>
+              </div>
           </div>
+
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
+            <div class="workCard">
+              <div class="workTop">
+                <img class="workImg" src="images/work/sukam.jpg">
+                <!-- <a href="index.php"><button class="white-button work-button">View Case</button></a> -->
+              </div>
+            </div>
+              <div class="workNumber">
+                <h1 class="w-number">07 </h1>
+              </div>
+              <div class="workName">
+                <h3 class="w-name">Sukam</h3>
+                <p class="w-detail">HTML Email Template</p>
+              </div>
+
+          </div>
+
+
       </div>
     </div>
 

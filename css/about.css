@@ -95,13 +95,15 @@
   bottom: 0px;
   left: 0px;
 }
-
+.b-x{
+  height: 500px;
+}
 .p-brief{
   text-rendering: optimizeLegibility;
   margin: 0px;
   width: 100%;
   color: #121212;
-  font-size: 15px;
+  font-size: 17px;
   display:block;
   position:relative;
   opacity:0;
@@ -144,4 +146,41 @@
   display:block;
   position:relative;
   opacity:0;
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+ .big-pad-right{
+   padding: 30px;
+ }
+ .imgltop{
+   margin-top: 0px;
+   margin-left: 10px;
+   margin: auto;
+ }
+ .imgltop img{
+   max-height:inherit;
+ }
+ .box-detail{
+   margin-left: 0px;
+ }
+ .wrapper{
+   margin-top: -10px;
+ }
+ #processHolder {
+   display: block;
+
+ }
+ .ts-header{
+   margin-left:20px;
+ }
+ .p-img{
+  max-width: 100%;
+ }
+ .sec-pad{
+   padding-bottom: 250px;
+ }
+ #process{
+   top:170px;
+ }
 }

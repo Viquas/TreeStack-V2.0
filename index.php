@@ -33,13 +33,13 @@
 
   <?php
   include 'loader.php';
-  include 'header.php';
+  include 'header1.php';
   ?>
 
   <section class="hometop">
     <div class="container">
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-6">
           <div class="header-sec">
             <h2 class="main" id="holder">Handcrafting innovative
               <div id="holder">
@@ -51,19 +51,19 @@
                 </div>
               </div>
             </h2>
-            <h5 class="sub">That wins your customers head and heart</h5>
+            <h5 class="sub">That wins your customer's head and heart</h5>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <div id="imageHolder">
             <div class="header-image" id="illustrations">
               <img src="images/web.png" class="home-img" ></img>
               <img src="images/mobile.png" class="home-img" ></img>
-              <img src="images/strategy.png" class="home-img" ></img>
-              <img src="images/mobile.png" class="home-img" ></img>
+              <img src="images/brand.png" class="home-img" ></img>
+              <img src="images/experience.png" class="home-img" ></img>
             </div>
           </div>
-          <div class="circle-arrow mob-no" >
+          <div class="circle-arrow mob-no" id="down">
             <i class="fa fa-long-arrow-down arrow-behind" ></i>
           </div>
         </div>
@@ -72,21 +72,22 @@
     <section id="intro">
       <div class="container mob-ful">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-7">
             <div class="box-image">
-              <img src="images/workstation.jpg" class="img-responsive ">
+              <video autoplay loop class="fillWidth">
+             <source src="videos/meet.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.</video>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="box-detail" id="box-one-ts">
-              <div class=" big-pad">
+          <div class="col-sm-5">
+            <div class="box-detail " id="box-one-ts">
+              <div class="big-pad">
                 <h4> TreeStack welcomes you</h4>
                 <br/>
-                <p class="explain ">We are passionate mobile app & web development agency that combine thoughtful design with technical excellence</p>
-                <p class="explain ">We craft beautifull experiences across all platform </p>
+                <p class="explain ">We are passionate mobile app & web development agency that combines thoughtful design with technical excellence.</p>
+                <p class="explain ">We craft beautiful experiences across all platform. </p>
                 <br/>
-                <button class="white-button">Learn more about us</button>
-                <a href="" class="al_tree">L</a>
+                <a href="about.php" ><button class="white-button">Learn more about us</button></a>
+                <!-- <a href="" class="al_tree">L</a> -->
 
               </div>
             </div>
@@ -95,9 +96,9 @@
       </div>
     </section>
 
-    <section >
+    <section class="no-top">
       <div class="container">
-       <h2 class="tl_head">  The stuff we are proud at</h2>
+       <h2 class="tl_head"> The expertise we deliver</h2>
        <div class="row">
          <div class="col-sm-3">
            <div class="ts_card">
@@ -145,24 +146,27 @@
 
     <section class="ts-sec-grad">
       <div class="container">
-        <h2 class="tl_head">  How we help our brands solve their problems</h2>
+        <h2 class="tl_head">  how we help brands solve their problem</h2>
         <div class="row">
           <div class="col-sm-12">
             <div id="container">
-		            <div class="slide" style="background-image:url(images/uber1.jpg);" id="firstSlide">
+		            <div class="slide" style="background-image:url(images/home1.jpg);" id="firstSlide">
                   <!-- <img src="images/uber1.jpg" class="img-responsive"></img> -->
                   <div class="slide-text">
-                    We strive to create <br/>user centric solutions
+                    We strive to create a user centric solution.
+
                   </div>
                 </div>
-		            <div class="slide" style="background-image:url(images/uber2.jpg);">
+		            <div class="slide" style="background-image:url(images/home2.jpg);">
                   <div class="slide-text">
-                    We strive to create <br/>user centric solutions
+                    We care deeply about natural, beautiful & Intuitive experience.
+
                   </div>
                 </div>
-		            <div class="slide" style="background-image:url(images/uber3.jpg);">
+		            <div class="slide" style="background-image:url(images/home3.jpg);">
                   <div class="slide-text">
-                    We strive to create <br/>user centric solutions
+                    Our process is agile and rooted to create forward thinking solutions.
+
                   </div>
                 </div>
 
@@ -206,36 +210,36 @@
            <img src="images/logo/dishq.png" class="company-logo">
          </div>
          <div class="col-sm-3 col-xs-6">
-           <img src="images/logo/xcd.png" class="company-logo">
+           <img src="images/logo/pera.png" class="company-logo">
          </div>
          <div class="col-sm-3 col-xs-6">
-           <img src="images/logo/dishq.png" class="company-logo">
+           <img src="images/logo/ss.png" class="company-logo">
          </div>
          <div class="col-sm-3 col-xs-6">
-           <img src="images/logo/xcd.png" class="company-logo">
+           <img src="images/logo/sukam.png" class="company-logo">
          </div>
          <div class="col-sm-3 col-xs-6">
-           <img src="images/logo/dishq.png" class="company-logo">
+           <img src="images/logo/uni.png" class="company-logo">
          </div>
          <div class="col-sm-3 col-xs-6">
-           <img src="images/logo/xcd.png" class="company-logo">
+           <img src="images/logo/verdura.png" class="company-logo">
          </div>
          <div class="col-sm-3 col-xs-6">
-           <img src="images/logo/dishq.png" class="company-logo">
+           <img src="images/logo/ridestyle.png" class="company-logo">
          </div>
        </div>
       </div>
-      <div class="container ts-mar" id="testimonial">
+      <div class="container ts-mar mob-ful" id="testimonial">
         <div class="row">
           <div class="col-sm-8">
             <div class="testimonial-box">
               <div class="row">
-                <div class="col-sm-3">
+                <div class="col-xs-4 ">
                   <div class="testimonial-img-wrapper">
-                    <img src="images/clients/girl.jpg" class="testimonial-img">
+                    <img src="images/clients/nischel.jpg" class="testimonial-img">
                   </div>
                 </div>
-                <div class="col-sm-9">
+                <div class="col-xs-8 ">
                   <div class="testimonial-name">
                     <h4>Nishel Surana</h4>
                     <p> Ride.Style</p>
@@ -257,7 +261,7 @@
 
                 <h5> Explore how we helped Nishel get the best out of his business</h5>
 
-                <button class="white-button">See Case Studies</button>
+                  <a href="work.php"> <button class="white-button">View our work</button></a>
 
               </div>
             </div>
@@ -269,18 +273,15 @@
       <div class="container">
        <h3 class="tl_head text-center"> Our recent work we're really proud of </h3>
        <div class="row">
-         <div class="col-sm-3 offset-sm-3 " >
-           <div class="left-showcase">
-           </div>
-         </div>
-         <div class="col-sm-3">
+
+         <div class="col-sm-4 offset-sm-4">
            <div class="right-showcase " >
              <div class="ts-box-down">
                <h4>dishq website</h4>
                <p>Check out how we created an amazing experience for dishq</p>
              </div>
              <div class="ts-box-arrow-holder">
-               <a href=""><i class="fa fa-long-arrow-right ts-box-arrow" ></i></a>
+               <a href="work.php"><i class="fa fa-long-arrow-right ts-box-arrow" ></i></a>
              </div>
            </div>
          </div>
@@ -288,7 +289,7 @@
        <div class="row">
           <div class="col-sm-12">
            <h3 class="tl_head text-center "> Explore other projects
-             <button class="black-button ts-mar-left">View all our work</button>
+               <a href="work.php"> <button class="black-button ts-mar-left">View all our work</button></a>
            </h3>
           </div>
        </div>
@@ -298,40 +299,11 @@
       <div class="row">
         <div class="col-sm-12">
           <h2 class="text-center gray-text">Let's craft something amazing</h2>
-          <p class="text-center"><a class="arrow-link text-center" href="">Work with us <span class="a-right"><i class="fa fa-long-arrow-right ts-link-arrow" ></i></span></a></p>
+          <p class="text-center"><a class="arrow-link text-center" href="talk.php">Work with us <span class="a-right"><i class="fa fa-long-arrow-right ts-link-arrow" ></i></span></a></p>
         </div>
       </div>
     </section>
-    <footer>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="footer-sec left-footer">
-            <img class="footer-logo" src="images/logo.png"></img>
-            <p class="newsletter-text">Wish to get updates on latest design trends?</p>
-            <div class="input-group">
-              <input type="text" class="form-control newsletter-input" placeholder="Enter your email address">
-                <span class="input-group-btn">
-                <button class="btn btn-default newsletter-button" type="button">+</button>
-                </span>
-             </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="footer-sec right-footer">
-            <p class="footer-item">UK +44 (0) 203 287 3302</p>
-            <p class="footer-item">help@treestack.tech</p>
-            <p class="footer-item"> Follow us:
-               <a class="socio-link" href="#"><i class="fa fa-medium"></i> </a>
-                <a class="socio-link" href="#"><i class="fa fa-behance"></i> </a>
-                 <a class="socio-link" href="#"><i class="fa fa-dribbble"></i> </a>
-                  <a class="socio-link" href="#"><i class="fa fa-twitter"></i> </a>
-                   <a class="socio-link" href="#"><i class="fa fa-instagram"></i> </a>
-                   <a class="socio-link" href="#"><i class="fa fa-facebook"></i> </a>
-             </p>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <?php include 'footer.php';?>
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -350,6 +322,15 @@
     sr.reveal('.company-logo',{ duration: 1000 },300);
     sr.reveal('.ts-up',{ duration: 2000 },100);
     sr.reveal('footer',{ duration: 2000 },100);
+
+    $(document).ready(function() {
+      $("#down").click(function() {
+        $('html, body').animate({
+          scrollTop: $("#intro").offset().top
+        }, 1500);
+      });
+    });
     </script>
+
   </body>
   </html>
