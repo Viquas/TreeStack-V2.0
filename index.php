@@ -96,7 +96,7 @@
       </div>
     </section>
 
-    <section class="no-top">
+    <section class="no-top mob-top">
       <div class="container">
        <h2 class="tl_head"> The expertise we deliver</h2>
        <div class="row">
@@ -154,24 +154,19 @@
                   <!-- <img src="images/uber1.jpg" class="img-responsive"></img> -->
                   <div class="slide-text">
                     We strive to create a user centric solution.
-
                   </div>
                 </div>
 		            <div class="slide" style="background-image:url(images/home2.jpg);">
                   <div class="slide-text">
                     We care deeply about natural, beautiful & Intuitive experience.
-
                   </div>
                 </div>
 		            <div class="slide" style="background-image:url(images/home3.jpg);">
                   <div class="slide-text">
                     Our process is agile and rooted to create forward thinking solutions.
-
                   </div>
                 </div>
-
             </div>
-
           </div>
        </div>
 
@@ -313,6 +308,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <!-- <script src="js/jquery.visible.min.js"></script> -->
     <script src="js/sjhajh.js"></script>
+    <script src="js/menuhjks.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script>
     window.sr = ScrollReveal();

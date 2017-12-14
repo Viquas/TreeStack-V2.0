@@ -47,48 +47,57 @@
            <label>Full Name</label>
            <div class="input-block">
              <input name="first_name" placeholder="your full name" type="text">
-             <div class="input-line"></div>
+             <div class="input-line" id="n"></div>
            </div>
          </div>
          <div class="form-group input-group">
            <label>Email Address</label>
            <div class="input-block">
              <input name="email" placeholder="your email address" type="email">
-             <div class="input-line"></div>
+             <div class="input-line" id="e"></div>
            </div>
          </div>
          <div class="form-group input-group">
            <label>Phone Number</label>
            <div class="input-block">
              <input name="phone" placeholder="a number we can call you on" type="text">
-             <div class="input-line"></div>
+             <div class="input-line" id="p"></div>
+           </div>
+         </div>
+         <div class="form-group input-group">
+           <label>Company</label>
+           <div class="input-block">
+             <input name="company" placeholder="enter your company name" type="text">
+             <div class="input-line" id="c"></div>
            </div>
          </div>
          <div class="form-group input-group">
            <label>Message</label>
            <div class="input-block">
              <textarea cols="10" name="message" placeholder="please describe your project, the basic idea with an overview of features required" rows="5"></textarea>
-             <div class="input-line"></div>
+             <div class="input-line" id="m"></div>
            </div>
          </div>
          <div class="location-stripe">
            <div class="checkbox-block">
              <span>Choose Project:</span>
  				<div class="checkbox-single">
- 					<input id="s-web" name="location-radio" type="checkbox" value="Website"> <label for="s-web">Website</label>
+ 					<input id="s-web" name="web" type="checkbox" value="Website"> <label for="s-web">Website</label>
  				</div>
  				<div class="checkbox-single">
- 					<input id="s-mob" name="location-radio" type="checkbox" value="App"> <label for="s-mob">Mobile App</label>
+ 					<input id="s-mob" name="mob" type="checkbox" value="App"> <label for="s-mob">Mobile App</label>
  				</div>
  				<div class="checkbox-single">
- 					<input id="s-ux" name="location-radio" type="checkbox" value="ux"> <label for="s-ux">Interface/Experience Designing</label>
+ 					<input id="s-ux" name="ux" type="checkbox" value="ux"> <label for="s-ux">Interface/Experience Designing</label>
  				</div>
         <div class="checkbox-single">
- 					<input id="s-brand" name="location-radio" type="checkbox" value="branding"> <label for="s-brand">Brand Identity</label>
+ 					<input id="s-brand" name="brand" type="checkbox" value="branding"> <label for="s-brand">Brand Identity</label>
  				</div>
            </div>
          </div>
- 			          <button class="white-button work-button"  style="float:right" type="button">Submit enquiry</button>
+         <p class="text-center messageNew" id="message">Thank you for your interest. We will get in touch with you as soon as possible.  </p>
+
+ 			          <button class="white-button work-button"  style="float:right" type="button" id="send">Submit enquiry</button>
      </div>
    </div>
 
@@ -105,7 +114,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script src="js/menuhjks.js"></script>
-    <script src="js/about.js"></script>
+    <script src="js/talk.js"></script>
     <!-- <script>
     window.sr = ScrollReveal();
     sr.reveal('.ts-sec-grad-down',{ duration: 1000 });

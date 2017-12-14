@@ -11,6 +11,20 @@ $(".arrow-link").hover(function(){
 
 });
 
+$(".ts_project ").hover(function(){
+	console.log('j');
+	goRight($(this).find('.fa fa-long-arrow-right'));
+},function(){
+
+});
+function goRight(c){
+		console.log(c);
+		var tl = new TimelineLite();
+		var $arrow = c;
+		tl.to($arrow, 0.3, {x:50,opacity:0})
+		 .to($arrow, 0, {x:-100,opacity:0})
+		 .to($arrow, 0.2, {x:0,opacity:1});
+}
 
 
 
@@ -21,12 +35,13 @@ $(".arrow-link").hover(function(){
 		var $nav = $('#myNav');
 		if(tog){
 			ripple();
-			$('.nav').css('position','fixed');
+			$('.nav').css({'position':'fixed','right':'90px'});
 			tl.to($nav, 0, {width:'100%',opacity:0})
 			 .to($nav, 0.3, {display:'block',opacity:1})
 			 .to($ham, 0.3, {color:'white'})
 		}else{
 			// $(body).css('overflow','hidden');
+			$('.nav').css('position','inherit');
 			rippleOut();
 			tl.to($nav, 0, {width:'100%',opacity:1})
 			 .to($nav, 0.3, {display:'none',opacity:0})
@@ -115,21 +130,13 @@ $('#news').click(function(){
 });
 
 function post_news(t){
-	$.post("services/contact.php", {
+	$.post("service/news.php", {
                     email:t,
   }, function(result) {
-
-    var print = jQuery.parseJSON(result);
-    if (print.status == 200) {
-      console.log(print);
-      $scope.message = 'Thank you for your interest. We will get in touch with you as soon as possible.';
-      $scope.success = true;
-      $("#done").addClass('disabled');
-
-} else {
-
-
-}
+      var message = 'Thank you for your interest.';
+      $("#news").addClass('disabled');
+			$('#mes').text(message);
+			$('#mes').css('display','block');
 });
 }
 function validateEmail($email) {

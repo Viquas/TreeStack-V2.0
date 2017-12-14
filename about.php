@@ -113,7 +113,7 @@
           <div class="col-sm-10 offset-sm-1">
             <div class="prog-container">
             <div class="progress gray">
-              <div id="processProgress" class="black progress">
+              <div id="processProgress" class="ts-red progress">
               </div>
             </div>
           </div>

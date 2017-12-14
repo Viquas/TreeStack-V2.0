@@ -292,6 +292,10 @@ p.swap{
 .gray{
   color:#c4c4c4;
 }
+.ts-red{
+  color:#ff4747;
+  background-color: #ff4747;
+}
 .explain{
   font-size: 19px;
   font-weight: 300;
@@ -704,7 +708,7 @@ textarea:focus, input:focus{
   transition: 0.5s;
 }
 .socio-link:hover{
-  color: #555;
+  color: #ff4747;
   transform: scale(1.1);
 }
 .overlay {
@@ -781,7 +785,7 @@ float: left;
   overflow:hidden;
 }
 .link-line{
-  background-color: #826ac5;
+  background-color: #ff4747;
   height: 2px;
   display: inline-block;
   margin-top:-150px;
@@ -796,7 +800,7 @@ float: left;
 .link-arrow{
   display: inline-block;
   font-size: 18px;
-  color: #826ac5;
+  color: #ff4747;
   opacity: 0;
   margin-bottom: -10px;
 }
@@ -815,7 +819,7 @@ float: left;
     -o-transform: translateX(-1rem) translateY(1rem);
     transform: translateX(-1rem) translateY(1rem);
     z-index: 2;
-    background: #826ac5;
+    background: #ff4747;
     border-radius: 25px;
     opacity: 0;
 }
@@ -931,6 +935,25 @@ body.menu-open .c-indicator .c-indicator__circle:after {
 .footer-logo{
   max-width: 200px;
 }
+.message{
+  width: 100%;
+  text-align: center;
+  font-size:13px;
+  color: #aaa;
+  margin-top: 10px;
+  display: none;
+  transition: 0.5;
+}
+
+
+/*Menu*/
+ .leftPad{
+   padding-left: 100px;
+ }
+
+.mob-top{
+  margin-top: 400px;
+}
 @media screen and (max-height: 450px) {
 
   .overlay a {font-size: 20px}
@@ -1032,5 +1055,8 @@ body.menu-open .c-indicator .c-indicator__circle:after {
   }
   .testimonial-detail{
     margin-left:0px;
+  }
+  .leftPad{
+    padding-left: 30px;
   }
 }

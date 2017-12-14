@@ -35,21 +35,28 @@
    include 'loader.php';
    include 'header1.php';
    ?>
-
+   <!-- <div class="leftLift"></div>
+   <div class="rightLift"></div> -->
+<div class="b-img"></div>
   <section class="work-top">
+
     <div class="container-fluid ">
       <div class="row ts-lift">
         <div class="col-sm-12">
-          <h2 class="main"> We help brands by crafting intuitive interface for their users </h2>
+          <h2 class="main"> Our passion for design goes beyond beautiful imagery and into the mind of the consumer.</h2>
         </div>
       </div>
-      <div class="b-img"></div>
+      <!-- <div class="b-img">
+        <!-- <video autoplay loop class="">
+       <source src="videos/food.mp4" type="video/mp4" id="vv"/>Your browser does not support the video tag. I suggest you upgrade your browser.</video>
+      </div> -->
     </div>
 
     <div class="container-fluid work-station" id="move">
       <div class="row flex-row flex-nowrap">
+
           <div class="col-12 col-sm-6 col-md-4 col-lg-4 offset-lg-1">
-              <div class="workCard">
+              <div class="workCard " id="f">
                 <div class="workTop">
                 <img class="workImg" src="images/work/dishq.jpg">
                  <a href="https://dishq.co/" target="_blank"><button class="white-button work-button">View Site</button></a>
@@ -67,10 +74,10 @@
 
 
           <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
-            <div class="workCard">
+            <div class="workCard" data-start="#575c69" data-end="#222429">
               <div class="workTop">
                 <img class="workImg" src="images/work/ride.style.jpg">
-                <a href="http://ride.style/" target="_blank"><button class="white-button work-button">View Case</button></a>
+                <a href="http://ride.style/" target="_blank"><button class="white-button work-button">Visit Website</button></a>
               </div>
             </div>
               <div class="workNumber">
@@ -102,7 +109,7 @@
             <div class="workCard">
               <div class="workTop">
                 <img class="workImg" src="images/work/verdura.jpg">
-                <a href="http://verdura.co.uk/" target="_blank"><button class="white-button work-button">Visit Site</button></a>
+                <a href="http://verdura.co.uk/" target="_blank"><button class="white-button work-button">Visit Website</button></a>
               </div>
             </div>
               <div class="workNumber">
@@ -117,7 +124,7 @@
               <div class="workCard">
                 <div class="workTop">
                   <img class="workImg" src="images/work/pera.jpg">
-                  <a href="http://tastepera.com/" target="_blank"><button class="white-button work-button">Visit Site</button></a>
+                  <a href="http://tastepera.com/" target="_blank"><button class="white-button work-button">Visit Website</button></a>
                 </div>
               </div>
               <div class="workNumber">
@@ -161,6 +168,7 @@
               </div>
 
           </div>
+
 
 
       </div>

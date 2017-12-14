@@ -1,4 +1,6 @@
-
+.messageNew{
+  display: none;
+}
 .top-intro {
     height: 100vh;
     display: -ms-flexbox;
@@ -1259,7 +1261,7 @@ body.pace-done div#loader-slow {
 @media (max-width: 1024px) {
     .burger {
         right: 20px;
-        
+
         top: 20px
     }
 }

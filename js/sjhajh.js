@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	$(".loader-overlay").delay(1000).fadeOut(500);
-	$('#nav-icon1').click(function(){
-		$(this).toggleClass('open');
-		toggleNav($(this).hasClass( "open" ));
-	});
+	// $('#nav-icon1').click(function(){
+	// 	$(this).toggleClass('open');
+	// 	toggleNav($(this).hasClass( "open" ));
+	// });
 
  slideTop($("#holder"));
 $(".arrow-link").hover(function(){
@@ -37,25 +37,25 @@ function goRight(c){
 }
 
 //Toggle nav to show and hide
-	function toggleNav(tog){
-		var tl = new TimelineLite();
-		var $ham = $('.ham');
-		var $nav = $('#myNav');
-		if(tog){
-			ripple();
-			$('.nav').css('position','fixed');
-			tl.to($nav, 0, {width:'100%',opacity:0})
-			 .to($nav, 0.3, {display:'block',opacity:1})
-			 .to($ham, 0.3, {color:'white'})
-		}else{
-			$('.nav').css('position','relative');
-			// $(body).css('overflow','hidden');
-			rippleOut();
-			tl.to($nav, 0, {width:'100%',opacity:1})
-			 .to($nav, 0.3, {display:'none',opacity:0})
-			 .to($ham, 0.3, {color:'black'})
-		}
-	 }
+	// function toggleNav(tog){
+	// 	var tl = new TimelineLite();
+	// 	var $ham = $('.ham');
+	// 	var $nav = $('#myNav');
+	// 	if(tog){
+	// 		ripple();
+	// 		$('.nav').css('position','fixed');
+	// 		tl.to($nav, 0, {width:'100%',opacity:0})
+	// 		 .to($nav, 0.3, {display:'block',opacity:1})
+	// 		 .to($ham, 0.3, {color:'white'})
+	// 	}else{
+	// 		$('.nav').css('position','relative');
+	// 		// $(body).css('overflow','hidden');
+	// 		rippleOut();
+	// 		tl.to($nav, 0, {width:'100%',opacity:1})
+	// 		 .to($nav, 0.3, {display:'none',opacity:0})
+	// 		 .to($ham, 0.3, {color:'black'})
+	// 	}
+	//  }
 
 
 $(function(){

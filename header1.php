@@ -3,7 +3,7 @@
   <div class="overlay-content">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-12 leftPad">
           <a href="index.php" class="menu-text" data-name="home.svg">Home
                 <span class="link-line"></span>
           </a>
@@ -22,7 +22,9 @@
         </div>
       </div>
         <div class="row">
-          <a href="talk.php" class="ts_project">Start a project   <i class="fa fa-long-arrow-right  " ></i></a>
+          <div class="col-sm-12">
+          <a href="talk.php" class="ts_project ">Start a project   <i class="fa fa-long-arrow-right " ></i></a>
+        </div>
         </div>
     </div>
     <!-- <a href="#" class="ts_project">Start a project   <i class="fa fa-long-arrow-right " ></i></a> -->

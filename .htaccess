@@ -1,12 +1,2 @@
-Options +FollowSymLinks
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^(www.)?dishq\.in$ [NC]
-RewriteRule ^(.*)$ https://dishq.co/$1 [R=301,L]
-# 1 Month for most static assets
-<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
-Header set Cache-Control "max-age=2592000, public"
-</filesMatch>
-<IfModule mod_deflate.c>
-AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css         application/x-javascript application/javascript
-</IfModule>
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]

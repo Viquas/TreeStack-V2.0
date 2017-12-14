@@ -28,7 +28,7 @@ $(function(){
 
 
 
-				var tweenSlide = TweenLite.delayedCall(delay, nextSlide);
+				var tweenSlide = TweenLite.delayedCall(1, nextSlide);
 				var tweenProgress = TweenLite.fromTo( $progress, delay, {width:"0px"}, {width:"100%"} );
 				TweenLite.fromTo($process.eq(oldProcess), transitionTime, {top:20, alpha:0, rotationX: -90 }, {top:0, alpha:1, rotationX:0});
 				TweenLite.fromTo($number.eq(oldProcess), transitionTime, {top:20, alpha:0, rotationX: -90 }, {top:0, alpha:1, rotationX:0});
